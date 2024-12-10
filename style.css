@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    background-color: rgb(224, 144, 144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 100vh;
+} 
+.card{
+    width: 56rem;
+    height: 20rem;
+    display: flex;
+}
+.left{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(58, 57, 57);
+}
+.right{
+    background-color: rgb(52, 49, 49);
+    width: 70%;
+    height: 100%;
+}

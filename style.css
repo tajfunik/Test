@@ -2,44 +2,23 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .app{
-    background-color: rgb(224, 144, 144);
+    background-image: linear-gradient(to right, rgb(248, 113, 133), rgb(244, 114, 182));
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 100vh;
+    
 } 
 .card{
     width: 56rem;
-    height: 20rem;
+    height: 30rem;
+    border: 2px solid rgb(22, 21, 21);
+    border-radius: 0.5rem;
     display: flex;
     color: aliceblue;
-}
-.left{
-    width: 30%;
-    height: 100%;
-    background-color: rgb(58, 57, 57);
-    padding: 0.5rem 0.3rem;
-}
-.left ul{
-    list-style-type: none;
-}
-
-.left a{
-    color: aliceblue;
-    text-decoration: none;
-    font-size: 1.4rem;
-}
-.usporiadanie{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.right{
-    background-color: rgb(52, 49, 49);
-    width: 70%;
-    height: 100%;
-    padding: 0.5rem 0.3rem;
+    overflow: hidden;
 }

@@ -1,0 +1,23 @@
+.left{
+    width: 30%;
+    background-color: rgb(61, 63, 68);
+    padding: 0.5rem 0.3rem;
+}
+.left ul{
+
+    list-style-type: none;
+}
+.left li{
+    padding: 0.3rem 0.2rem;
+}
+
+.left a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.4rem;
+    padding: 0.3rem 0.2rem;
+}
+.usporiadanie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}

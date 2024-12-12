@@ -22,3 +22,56 @@ body{
     color: aliceblue;
     overflow: hidden;
 }
+
+/*------BUTTONS------*/
+.controls button{
+    width: 1rem;
+    height: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+.controls .close{
+    background-color: red;
+}
+.controls .close:hover,
+.controls .close:active{
+    background-color: green;
+}
+
+.controls .minimalize{
+    background-color: rgb(252, 211, 77);
+}
+.controls .minimalize:hover,
+.controls .minimalize:active{
+    background-color: rgb(245, 158, 11);
+}
+
+.controls .maximalize{
+    background-color: rgb(52, 211, 153);
+}
+.controls .maximalize:hover,
+.controls .maximalize:active{
+    background-color: rgb(16, 185, 129);
+}
+
+/*------FORM------*/
+form{
+    padding: 1rem;
+    margin:0 0.5rem 0 0;
+}
+input{
+    width: 100%;
+    color: rgb(244, 249, 252);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+input::placeholder{
+    color: aliceblue;
+    font-weight: normal;
+}
